@@ -1,0 +1,119 @@
+.login-page{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+.login-box{
+    width:25vw;
+}
+
+/* login methods container*/
+.login-methods{
+    width: 100%;
+    height: 65px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 3% 0;
+    justify-content: flex-start;
+    padding: 0 8%;
+}
+
+/* login methods */
+.login-methods .login-method-logo{
+    height: 70%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-methods .login-method-logo img {
+    width: auto;
+    mix-blend-mode: darken;
+}
+
+.login-methods p {
+    font-weight: 600;
+    margin: auto;
+
+}
+
+
+/*  divider OR  */
+.login-box-divider{
+    width: 80px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.login-box-divider hr{
+    flex-grow: 1;
+    width: 2px;
+    background-color: grey;
+
+}
+
+
+
+
+/* manual login  style  */
+
+.login-manual{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.login-details-input{
+    width: 25vw;
+    height:50px;
+    box-shadow: 0 4px 4px 0 grey;
+    margin: 3% 0;
+}
+
+/* manual login deails input design */
+.login-details-input p{
+    margin: 0.5% 1%;
+    font-size: 14px;
+    color: grey;
+}
+
+.login-details-input input{
+    border: 0;
+    outline: 0;
+    padding: 0 3%;
+}
+
+
+.login-details-input.login-btn{
+    box-shadow: unset;
+    margin-top: auto;
+    background-color: var(--primary-blue);
+    border: 0;
+    border-radius: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* signup option */
+.sign-up-option-text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4%;
+}
+

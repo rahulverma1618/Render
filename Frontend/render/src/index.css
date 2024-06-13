@@ -1,6 +1,52 @@
+:root{
+  --primary-blue : rgb(19,132,242);
+}
+
+
+
+
+/* general classes */
+
+.h100{
+  height: 100%;
+}
+
+.w100{
+  width: 100%;
+}
+
+.cursor-hand{
+  cursor: pointer;
+}
+
+.all-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img100{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
 *{
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -10,6 +56,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
 }
 
 code {

@@ -1,0 +1,120 @@
+
+.all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0 2px 2px rgba(0,0,0,0.25);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/* nav bar left side option tags */
+nav .nav-left-options{
+    flex-grow: 1;
+    height: 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-btn{
+    height: 80%;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 3%;
+}
+
+nav .logo p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/* search input box */
+nav .search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid grey;
+    border-radius: 100px;
+
+    overflow: hidden;
+}
+
+nav .search-box input{
+    width: 30vw;
+    height: 30px;
+    padding: 0 3%;
+    border: 0;
+    outline: none;
+}
+
+nav .search-icon{
+    width: 50px;
+    height: 30px;
+    /* background-color: grey; */
+}
+
+
+/* navbar right options */
+
+nav .nav-right-options{
+    flex-grow: 1;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .nav-right-options > *{
+    margin: 0 2%;
+}
+
+nav #user-type-btn{
+    background-color: white;
+    border: 1px solid var(--primary-blue);
+    border-radius: 100px;
+    padding: 1% 2.5%;
+}
+nav #user-type-btn:hover{
+    background-color: var(--primary-blue);
+    border-color: white;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+nav .profile-btn{
+    height: 90%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    border: 2px solid rgb(19,132,242);
+}
+ 
